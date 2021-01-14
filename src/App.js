@@ -5,7 +5,7 @@ import DetailsPage from "./pages/DetailsPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Container>
         <Switch>
           <Route exact path="/" component={HomePage} />
