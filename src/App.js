@@ -6,12 +6,12 @@ import DetailsPage from "./pages/DetailsPage";
 function App() {
   return (
     <Router basename="/">
-      <Container>
-        <Switch>
+      <Switch>
+        <Container>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/pokemon/:id" component={DetailsPage} />
-        </Switch>
-      </Container>
+        </Container>
+      </Switch>
     </Router>
   );
 }
