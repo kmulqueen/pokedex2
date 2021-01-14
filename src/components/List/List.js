@@ -3,8 +3,8 @@ import Table from "react-bootstrap/Table";
 import ListItem from "../ListItem";
 
 const List = ({ pokemonList }) => {
+  // If the pokemonList has content, render the results in the list as a table
   return pokemonList.length ? (
-    // If the pokemonList has content, render the results in the list as a table
     <Table striped bordered hover responsive>
       <thead>
         <tr>
