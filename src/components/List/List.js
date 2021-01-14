@@ -29,7 +29,6 @@ const List = ({ pokemonList }) => {
       </tbody>
     </Table>
   ) : (
-    // If pokemonList is an empty array, return message
     <p>No Pokemon Found.</p>
   );
 };
